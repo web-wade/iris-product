@@ -20,7 +20,138 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80927a3-38af-4c40-ae0a-3b0e3040be55" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/common/consistent.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/filter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datamodels/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/middleware/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/controllers/product_controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/controllers/user_controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/css/color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/css/font-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/fonts/ui-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/fonts/ui-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/fonts/ui-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/fonts/ui-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/dropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/hero/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/hero/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/hero/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/logo_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/cart_small_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/cart_small_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/item_lg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/item_lg_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/item_lg_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/item_lg_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/item_lg_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/item_thumb_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/item_thumb_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/item_thumb_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/item_thumb_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/item_thumb_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/megamenu_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_back_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_back_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_back_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_back_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_back_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_back_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_back_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_back_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_back_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_back_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_back_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/img/shop/product_back_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/css/color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/css/font-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/flickity.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/fonts/ui-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/fonts/ui-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/fonts/ui-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/fonts/ui-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/dropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/hero/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/hero/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/hero/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/logo_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/cart_small_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/cart_small_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/item_lg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/item_lg_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/item_lg_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/item_lg_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/item_lg_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/item_thumb_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/item_thumb_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/item_thumb_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/item_thumb_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/item_thumb_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/megamenu_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_back_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_back_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_back_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_back_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_back_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_back_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_back_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_back_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_back_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_back_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_back_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/img/shop/product_back_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/modernizr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/owl-carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/price-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/public/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/views/product/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/views/product/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/views/shared/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/views/shared/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/views/shared/productLayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/views/template/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/views/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fronted/web/views/user/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repositories/user_repository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/user_service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/cookie.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repositories/order_repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/repositories/order_repository.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +177,28 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/web/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fronted/web/views" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/backend/web/views" />
-      <recent name="$PROJECT_DIR$/backend/web/controllers" />
+      <recent name="$PROJECT_DIR$/fronted/web/views" />
+      <recent name="$PROJECT_DIR$/fronted/web/controllers" />
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/services" />
-      <recent name="$PROJECT_DIR$/repositories" />
-      <recent name="$PROJECT_DIR$/datamodels" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go 构建.go build main.go (1)">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="iris-product" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/fronted/main.go" />
+      <package value="iris-product" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="iris-product" />
       <working_directory value="$PROJECT_DIR$" />
@@ -70,6 +210,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build main.go (1)" />
         <item itemvalue="Go 构建.go build main.go" />
       </list>
     </recent_temporary>
@@ -94,37 +235,52 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1096" height="252" key="GridCell.Tab.0.bottom" timestamp="1609560706092">
+    <state width="1362" height="233" key="GridCell.Tab.0.bottom" timestamp="1609581534936">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1096" height="252" key="GridCell.Tab.0.bottom/0.25.1920.979@0.25.1920.979" timestamp="1609560706092" />
-    <state width="1096" height="252" key="GridCell.Tab.0.center" timestamp="1609560706092">
+    <state width="1362" height="233" key="GridCell.Tab.0.bottom/0.25.1920.979@0.25.1920.979" timestamp="1609581534936" />
+    <state width="1362" height="233" key="GridCell.Tab.0.center" timestamp="1609581534935">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1096" height="252" key="GridCell.Tab.0.center/0.25.1920.979@0.25.1920.979" timestamp="1609560706092" />
-    <state width="1096" height="252" key="GridCell.Tab.0.left" timestamp="1609560706091">
+    <state width="1362" height="233" key="GridCell.Tab.0.center/0.25.1920.979@0.25.1920.979" timestamp="1609581534935" />
+    <state width="1362" height="233" key="GridCell.Tab.0.left" timestamp="1609581534935">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1096" height="252" key="GridCell.Tab.0.left/0.25.1920.979@0.25.1920.979" timestamp="1609560706091" />
-    <state width="1096" height="252" key="GridCell.Tab.0.right" timestamp="1609560706092">
+    <state width="1362" height="233" key="GridCell.Tab.0.left/0.25.1920.979@0.25.1920.979" timestamp="1609581534935" />
+    <state width="1362" height="233" key="GridCell.Tab.0.right" timestamp="1609581534935">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1096" height="252" key="GridCell.Tab.0.right/0.25.1920.979@0.25.1920.979" timestamp="1609560706092" />
-    <state width="1378" height="312" key="GridCell.Tab.1.bottom" timestamp="1609556002650">
+    <state width="1362" height="233" key="GridCell.Tab.0.right/0.25.1920.979@0.25.1920.979" timestamp="1609581534935" />
+    <state width="1655" height="292" key="GridCell.Tab.1.bottom" timestamp="1609581534933">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1378" height="312" key="GridCell.Tab.1.bottom/0.25.1920.979@0.25.1920.979" timestamp="1609556002650" />
-    <state width="1378" height="312" key="GridCell.Tab.1.center" timestamp="1609556002649">
+    <state width="1655" height="292" key="GridCell.Tab.1.bottom/0.25.1920.979@0.25.1920.979" timestamp="1609581534933" />
+    <state width="1655" height="292" key="GridCell.Tab.1.center" timestamp="1609581534932">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1378" height="312" key="GridCell.Tab.1.center/0.25.1920.979@0.25.1920.979" timestamp="1609556002649" />
-    <state width="1378" height="312" key="GridCell.Tab.1.left" timestamp="1609556002649">
+    <state width="1655" height="292" key="GridCell.Tab.1.center/0.25.1920.979@0.25.1920.979" timestamp="1609581534932" />
+    <state width="1655" height="292" key="GridCell.Tab.1.left" timestamp="1609581534932">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1378" height="312" key="GridCell.Tab.1.left/0.25.1920.979@0.25.1920.979" timestamp="1609556002649" />
-    <state width="1378" height="312" key="GridCell.Tab.1.right" timestamp="1609556002650">
+    <state width="1655" height="292" key="GridCell.Tab.1.left/0.25.1920.979@0.25.1920.979" timestamp="1609581534932" />
+    <state width="1655" height="292" key="GridCell.Tab.1.right" timestamp="1609581534932">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1378" height="312" key="GridCell.Tab.1.right/0.25.1920.979@0.25.1920.979" timestamp="1609556002650" />
+    <state width="1655" height="292" key="GridCell.Tab.1.right/0.25.1920.979@0.25.1920.979" timestamp="1609581534932" />
+    <state x="971" y="271" width="604" height="548" key="find.popup" timestamp="1609566735058">
+      <screen x="0" y="25" width="1920" height="979" />
+    </state>
+    <state x="971" y="271" width="604" height="548" key="find.popup/0.25.1920.979@0.25.1920.979" timestamp="1609566735058" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/fronted/web/controllers/user_controller.go</url>
+          <line>61</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
