@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80927a3-38af-4c40-ae0a-3b0e3040be55" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/fronted/productMain.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fronted/web/htmlProductShow/htmlProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/encrypt/aes.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/controllers/product_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/controllers/product_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/views/template/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/views/template/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/comm.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/comm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/mysql.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/mysql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fronted/web/controllers/user_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/controllers/user_controller.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +50,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fronted" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fronted" />
       <recent name="$PROJECT_DIR$/fronted/web" />
       <recent name="$PROJECT_DIR$/fronted/web/views" />
       <recent name="$PROJECT_DIR$/fronted/web/controllers" />
-      <recent name="$PROJECT_DIR$/common" />
     </key>
   </component>
   <component name="RunManager" selected="Go 构建.go build main.go (1)">
@@ -108,52 +108,45 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1368" height="234" key="GridCell.Tab.0.bottom" timestamp="1609649754997">
+    <state width="1535" height="234" key="GridCell.Tab.0.bottom" timestamp="1609667043445">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1368" height="234" key="GridCell.Tab.0.bottom/0.25.1920.979@0.25.1920.979" timestamp="1609649754997" />
-    <state width="1368" height="234" key="GridCell.Tab.0.center" timestamp="1609649754996">
+    <state width="1535" height="234" key="GridCell.Tab.0.bottom/0.25.1920.979@0.25.1920.979" timestamp="1609667043445" />
+    <state width="1535" height="234" key="GridCell.Tab.0.center" timestamp="1609667043445">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1368" height="234" key="GridCell.Tab.0.center/0.25.1920.979@0.25.1920.979" timestamp="1609649754996" />
-    <state width="1368" height="234" key="GridCell.Tab.0.left" timestamp="1609649754996">
+    <state width="1535" height="234" key="GridCell.Tab.0.center/0.25.1920.979@0.25.1920.979" timestamp="1609667043445" />
+    <state width="1535" height="234" key="GridCell.Tab.0.left" timestamp="1609667043444">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1368" height="234" key="GridCell.Tab.0.left/0.25.1920.979@0.25.1920.979" timestamp="1609649754996" />
-    <state width="1368" height="234" key="GridCell.Tab.0.right" timestamp="1609649754996">
+    <state width="1535" height="234" key="GridCell.Tab.0.left/0.25.1920.979@0.25.1920.979" timestamp="1609667043444" />
+    <state width="1535" height="234" key="GridCell.Tab.0.right" timestamp="1609667043445">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1368" height="234" key="GridCell.Tab.0.right/0.25.1920.979@0.25.1920.979" timestamp="1609649754996" />
-    <state width="1655" height="292" key="GridCell.Tab.1.bottom" timestamp="1609581534933">
+    <state width="1535" height="234" key="GridCell.Tab.0.right/0.25.1920.979@0.25.1920.979" timestamp="1609667043445" />
+    <state width="1055" height="293" key="GridCell.Tab.1.bottom" timestamp="1609666857495">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1655" height="292" key="GridCell.Tab.1.bottom/0.25.1920.979@0.25.1920.979" timestamp="1609581534933" />
-    <state width="1655" height="292" key="GridCell.Tab.1.center" timestamp="1609581534932">
+    <state width="1055" height="293" key="GridCell.Tab.1.bottom/0.25.1920.979@0.25.1920.979" timestamp="1609666857495" />
+    <state width="1055" height="293" key="GridCell.Tab.1.center" timestamp="1609666857494">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1655" height="292" key="GridCell.Tab.1.center/0.25.1920.979@0.25.1920.979" timestamp="1609581534932" />
-    <state width="1655" height="292" key="GridCell.Tab.1.left" timestamp="1609581534932">
+    <state width="1055" height="293" key="GridCell.Tab.1.center/0.25.1920.979@0.25.1920.979" timestamp="1609666857494" />
+    <state width="1055" height="293" key="GridCell.Tab.1.left" timestamp="1609666857494">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1655" height="292" key="GridCell.Tab.1.left/0.25.1920.979@0.25.1920.979" timestamp="1609581534932" />
-    <state width="1655" height="292" key="GridCell.Tab.1.right" timestamp="1609581534932">
+    <state width="1055" height="293" key="GridCell.Tab.1.left/0.25.1920.979@0.25.1920.979" timestamp="1609666857494" />
+    <state width="1055" height="293" key="GridCell.Tab.1.right" timestamp="1609666857495">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1655" height="292" key="GridCell.Tab.1.right/0.25.1920.979@0.25.1920.979" timestamp="1609581534932" />
+    <state width="1055" height="293" key="GridCell.Tab.1.right/0.25.1920.979@0.25.1920.979" timestamp="1609666857495" />
+    <state x="835" y="263" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1609666824097">
+      <screen x="0" y="25" width="1920" height="979" />
+    </state>
+    <state x="835" y="263" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1920.979@0.25.1920.979" timestamp="1609666824097" />
     <state x="971" y="271" width="604" height="548" key="find.popup" timestamp="1609566735058">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
     <state x="971" y="271" width="604" height="548" key="find.popup/0.25.1920.979@0.25.1920.979" timestamp="1609566735058" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/fronted/web/controllers/user_controller.go</url>
-          <line>61</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
