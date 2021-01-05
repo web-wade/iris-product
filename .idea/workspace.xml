@@ -20,16 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80927a3-38af-4c40-ae0a-3b0e3040be55" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/encrypt/aes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/comm.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/comm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/mysql.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/mysql.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fronted/web/controllers/user_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/web/controllers/user_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fronted/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/fronted/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.15.6/libexec" />
   <component name="Git.Settings">
@@ -47,6 +53,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -62,7 +69,16 @@
       <recent name="$PROJECT_DIR$/fronted/web/controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build main.go (1)">
+  <component name="RunManager" selected="Go 构建.go build validate.go">
+    <configuration name="go build iris-product" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="iris-product" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/test.go" />
+      <package value="iris-product" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="iris-product" />
       <working_directory value="$PROJECT_DIR$" />
@@ -81,8 +97,29 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="iris-product" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test.go" />
+      <package value="iris-product" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build validate.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="iris-product" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/validate.go" />
+      <package value="iris-product" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build validate.go" />
+        <item itemvalue="Go 构建.go build test.go" />
+        <item itemvalue="Go 构建.go build iris-product" />
         <item itemvalue="Go 构建.go build main.go (1)" />
         <item itemvalue="Go 构建.go build main.go" />
       </list>
@@ -108,38 +145,38 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1535" height="234" key="GridCell.Tab.0.bottom" timestamp="1609667043445">
+    <state width="1628" height="230" key="GridCell.Tab.0.bottom" timestamp="1609837884765">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1535" height="234" key="GridCell.Tab.0.bottom/0.25.1920.979@0.25.1920.979" timestamp="1609667043445" />
-    <state width="1535" height="234" key="GridCell.Tab.0.center" timestamp="1609667043445">
+    <state width="1628" height="230" key="GridCell.Tab.0.bottom/0.25.1920.979@0.25.1920.979" timestamp="1609837884765" />
+    <state width="1628" height="230" key="GridCell.Tab.0.center" timestamp="1609837884764">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1535" height="234" key="GridCell.Tab.0.center/0.25.1920.979@0.25.1920.979" timestamp="1609667043445" />
-    <state width="1535" height="234" key="GridCell.Tab.0.left" timestamp="1609667043444">
+    <state width="1628" height="230" key="GridCell.Tab.0.center/0.25.1920.979@0.25.1920.979" timestamp="1609837884764" />
+    <state width="1628" height="230" key="GridCell.Tab.0.left" timestamp="1609837884764">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1535" height="234" key="GridCell.Tab.0.left/0.25.1920.979@0.25.1920.979" timestamp="1609667043444" />
-    <state width="1535" height="234" key="GridCell.Tab.0.right" timestamp="1609667043445">
+    <state width="1628" height="230" key="GridCell.Tab.0.left/0.25.1920.979@0.25.1920.979" timestamp="1609837884764" />
+    <state width="1628" height="230" key="GridCell.Tab.0.right" timestamp="1609837884765">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1535" height="234" key="GridCell.Tab.0.right/0.25.1920.979@0.25.1920.979" timestamp="1609667043445" />
-    <state width="1055" height="293" key="GridCell.Tab.1.bottom" timestamp="1609666857495">
+    <state width="1628" height="230" key="GridCell.Tab.0.right/0.25.1920.979@0.25.1920.979" timestamp="1609837884765" />
+    <state width="1208" height="288" key="GridCell.Tab.1.bottom" timestamp="1609836516287">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1055" height="293" key="GridCell.Tab.1.bottom/0.25.1920.979@0.25.1920.979" timestamp="1609666857495" />
-    <state width="1055" height="293" key="GridCell.Tab.1.center" timestamp="1609666857494">
+    <state width="1208" height="288" key="GridCell.Tab.1.bottom/0.25.1920.979@0.25.1920.979" timestamp="1609836516287" />
+    <state width="1208" height="288" key="GridCell.Tab.1.center" timestamp="1609836516286">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1055" height="293" key="GridCell.Tab.1.center/0.25.1920.979@0.25.1920.979" timestamp="1609666857494" />
-    <state width="1055" height="293" key="GridCell.Tab.1.left" timestamp="1609666857494">
+    <state width="1208" height="288" key="GridCell.Tab.1.center/0.25.1920.979@0.25.1920.979" timestamp="1609836516286" />
+    <state width="1208" height="288" key="GridCell.Tab.1.left" timestamp="1609836516286">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1055" height="293" key="GridCell.Tab.1.left/0.25.1920.979@0.25.1920.979" timestamp="1609666857494" />
-    <state width="1055" height="293" key="GridCell.Tab.1.right" timestamp="1609666857495">
+    <state width="1208" height="288" key="GridCell.Tab.1.left/0.25.1920.979@0.25.1920.979" timestamp="1609836516286" />
+    <state width="1208" height="288" key="GridCell.Tab.1.right" timestamp="1609836516286">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
-    <state width="1055" height="293" key="GridCell.Tab.1.right/0.25.1920.979@0.25.1920.979" timestamp="1609666857495" />
+    <state width="1208" height="288" key="GridCell.Tab.1.right/0.25.1920.979@0.25.1920.979" timestamp="1609836516286" />
     <state x="835" y="263" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1609666824097">
       <screen x="0" y="25" width="1920" height="979" />
     </state>
