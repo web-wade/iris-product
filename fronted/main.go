@@ -6,6 +6,7 @@ import (
 	"github.com/kataras/iris/v12/mvc"
 	"iris-product/common"
 	"iris-product/fronted/web/controllers"
+	"iris-product/rabbitmq"
 	"iris-product/repositories"
 	"iris-product/services"
 )
@@ -46,6 +47,8 @@ func main() {
 	userPro.Register(userService, ctx)
 	userPro.Handle(new(controllers.UserController))
 
+	rabbitmq:=rabbitmq.NewRabbitMQSimple("Product001")
+
 	//注册product控制器
 	product := repositories.NewProductManager("product", db)
 	productService := services.NewProductService(product)
@@ -53,7 +56,7 @@ func main() {
 	orderService := services.NewOrderService(order)
 	proProduct := app.Party("/product")
 	pro := mvc.New(proProduct)
-	pro.Register(productService, orderService)
+	pro.Register(productService, orderService,rabbitmq)
 	pro.Handle(new(controllers.ProductController))
 
 	app.Run(

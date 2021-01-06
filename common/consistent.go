@@ -146,7 +146,7 @@ func (c *Consistent) Get(name string) (string, error) {
 	//添加锁
 	c.RLock()
 	//解锁
-	defer c.Unlock()
+	defer c.RUnlock()
 	//如果为零则返回错误
 	if len(c.circle) == 0 {
 		return "", errEmpty
